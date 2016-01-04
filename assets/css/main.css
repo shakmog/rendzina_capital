@@ -12,6 +12,10 @@
 		font-family: Interstate, Helvetica;
 	}
 
+	section#content a, section#sidebar a {
+		border-bottom: 0;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2457,6 +2461,7 @@
 		/*color: blue;*/
 		z-index: 123;
 		margin: 0 auto;
+		margin-top: 40px;
 /*
 		-ms-touch-action: none;
 		touch-action: none;*/

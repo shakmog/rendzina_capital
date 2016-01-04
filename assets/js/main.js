@@ -154,6 +154,27 @@
 				"images/adbox3.jpg"
 				], {duration: 2500});
 
+		// Read More
+	    $('#home_left').readmore({
+	      moreLink: '<a href="#">Read More</a>',
+	      collapsedHeight: 100
+	    });
+
+	    $('#home_right').readmore({
+	      moreLink: '<a href="#">Read More</a>',
+	      collapsedHeight: 200
+	    });
+
+	    $('#about_left_top, #about_left_bottom, #about_right_bottom').readmore({
+	      moreLink: '<a href="#">Read More</a>',
+	      collapsedHeight: 300
+	    });
+
+	    $('#about_right_top').readmore({
+	      moreLink: '<a href="#">Read More</a>',
+	      collapsedHeight: 400
+	    });
+
 	});
 
 })(jQuery);
